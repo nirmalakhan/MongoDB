@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
-require("dotenv").config();
-let mongourl = process.env.MONGODB_URL;
-// let url =
-//   "mongodb+srv://nirmalakhan:admin@cluster0.ojguvni.mongodb.net/carsmongodb";
+// require("dotenv").config();//for git hub
+// let mongourl = process.env.MONGODB_URL; //for git hub
+let mongourl =
+  "mongodb+srv://nirmalakhan:admin@cluster0.ojguvni.mongodb.net/carsmongodb";
 
 mongoose.connect(mongourl);
 
